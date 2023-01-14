@@ -124,7 +124,10 @@ nav{
     justify-content: center;
     margin-top: 55px;
 }
-
+.item-one-title h2{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;  
+}
 .item h2{
     font-size: 30px;
     color: #131313;
@@ -149,11 +152,10 @@ nav{
    color: #727272; 
 }
 .quick-banner img{
-    /* height: 660px;
-    width: 800px; */
     margin-left: 35px;
 }
 /* experiance section style end here */
+
 /* some section style start here */
 .some{
     margin: 50px 125px;
@@ -176,9 +178,9 @@ nav{
 .item-one{
     height: 200px;
     width: 200px;
-    
     border: 2px solid #FF900E;
     text-align: center;
+    
 }
 .item-one h2{
     font-size: 50px;
@@ -199,7 +201,9 @@ footer{
     background-color: #FF900E; 
     padding: 30px 100px;
     margin-top: 50px;
-    display: flex;
-    align-items: center;
+    margin-left: 55px;
+    margin-bottom: 40px;
+    background: #FFF4E7;
+    border-radius: 8px;
     
 }
