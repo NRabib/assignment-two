@@ -178,7 +178,7 @@ nav{
 /* some section style start here */
 .text{
     margin-top:50px;
-    margin-left: 40px;
+    margin-left: 100px;
 }
 .text h2{
     font-size: 50px;
@@ -203,7 +203,14 @@ nav{
     padding: 20px 30px;
     border: 2px solid #FF900E;
     text-align: center;
+    border-radius: 8px;
     
+}
+.item-one:hover{
+    background-color: #FF900E;
+    transform: rotate(360deg);
+    transition: ease-in 1.5s;
+
 }
 .item-one h2{
     font-size: 50px;
@@ -216,6 +223,9 @@ nav{
 /* gallary section style End hear */
 
 /* sponsor section style */
+.sponsor-company{
+    margin-top: 50px;
+}
 .company-pic{
     display: flex;
     justify-content: center;
@@ -312,6 +322,7 @@ footer{
         width: 100%;
         margin-left: 0;
         padding: 20px 10px;
+
     }
     footer h4{
         text-align: center;
