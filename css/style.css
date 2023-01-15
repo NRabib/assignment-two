@@ -169,7 +169,10 @@ nav{
    position: absolute;
    border: none;
    background-color: #FF900E;
-   margin-top: 900px;
+   margin-top: 949px;
+   margin-left: 0px;
+   border-radius: 10px;
+   padding: 20px 25px;
 }
 .btn h2{
     color: #fff;
@@ -177,7 +180,7 @@ nav{
 }
 .btn p{
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px;
 } */
 /* experiance section style end here */
